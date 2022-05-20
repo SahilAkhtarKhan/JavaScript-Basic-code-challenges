@@ -6,3 +6,14 @@ let tip =
     ? `${(tip = bill * 0.15)}`
     : `${(tip = bill * 0.2)}`;
 console.log(`Bill : ${bill}, Tip : ${tip}, & Total : ${bill + tip}`);
+
+// Calculate the retirement years with current age using function method
+
+const retirementYear = (birthYear, name) => {
+  const Age = 2022 - birthYear;
+  const retirement = 65 - Age;
+  console.log(
+    `Name : ${name}, Current age : ${Age} years, retire in ${retirement} years!`
+  );
+};
+retirementYear(1997, "Sahil");
