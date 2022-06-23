@@ -1,4 +1,4 @@
-// Challenge -01 ---------Calculating the BMI & comparing the higher BMI
+##### Challenge -01 ---------Calculating the BMI & comparing the higher BMI
 
 var Markmass = 78; // weight of Mark
 var Markheight = 1.69; // height of Mark
@@ -15,7 +15,7 @@ if (MarkBMI > JohnBMI) {
 }
 ______________________________________________________________________
 
-// Challenge-02  --------------Calculating avg of Dolphine & koalas using given three values & checking different scenarios
+##### Challenge-02  --------------Calculating avg of Dolphine & koalas using given three values & checking different scenarios
 
 // Dolphine Avg
 let DolphineScore = (97 + 112 + 50) / 3;
@@ -39,7 +39,7 @@ if (DolphineScore > KoalaScore && DolphineScore >= 100) {
 
 _____________________________________________________________________________
 
-// Challenge -03  -----------if the bill is between 50 & 300 then the tip will be 15% and if more than 300 than the tip will be 20%
+##### Challenge -03  -----------if the bill is between 50 & 300 then the tip will be 15% and if more than 300 than the tip will be 20%
 
 function calcTip(bill) {
   let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
@@ -52,7 +52,7 @@ let tip = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 console.log(bills, tip);
 _____________________________________________________________________________________;
 
-// Calculate the retirement years with current age using function method
+##### Calculate the retirement years with current age using function method
 
 const retirementYear = (birthYear, name) => {
   const Age = 2022 - birthYear;
