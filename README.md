@@ -66,7 +66,7 @@ retirementYear(1997, "Sahil");
 
 ______________________________________________________________________________
 
-/**  Challenge-04
+#####  Challenge-04
  * Calculating the avg of both team and print the winner based on the condition only if the value of one team is doubled the other team.
  *
  * @param {*Create an arrow function "calcAverage" for calculating avg score of both team} a
